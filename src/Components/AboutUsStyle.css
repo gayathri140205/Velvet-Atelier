@@ -1,0 +1,29 @@
+.about-container{
+    margin:4rem 3rem;
+    text-align:start;
+    position: relative; 
+    z-index: 1;
+    
+}
+.about-container h1{
+    padding-bottom: 1rem;
+}
+
+.about-container p{
+    padding-bottom: 2rem;
+}
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    margin-top: 2rem; /* Space between image and text */
+}
+
+@media screen and (max-width:850px){
+    .about-container{
+        margin:4rem 2rem;
+        
+    }
+}

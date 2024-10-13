@@ -1,0 +1,78 @@
+
+.Footer {
+    padding: 1rem; 
+    background: #000000;
+    color: #fff;
+    width: 100%; 
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top i {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover {
+    color: #01959a;
+}
+
+.bottom {
+    padding-top: 1rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    width: 22%; 
+    padding: 0;  
+}
+
+.bottom h4 {
+    font-size: 1rem;
+    padding: 0.5rem 0 0.5rem 0; 
+}
+
+.bottom ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.bottom li {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    list-style-position: inside;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .Footer {
+        padding: 1rem; 
+        height: auto; 
+    }
+
+    .bottom div {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+}
