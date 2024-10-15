@@ -14,7 +14,7 @@ function Home() {
       cName="hero"
       heroImg={Homeimg}
       title="Discover Delight in Every Bite."
-      text="Pick Your Perfect Cake"      
+      text="Pick Your Perfect Dessert"      
       button="Order Now"
       url="/"
       btnClass="show"/>
