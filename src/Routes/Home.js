@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Homeimg from "../Assets/b7.jpeg";
 import Navbar from "../Components/Navbar";
-import Trip from "../Components/Trip";
+import Tcard from "../Components/Trip";
 import FrontPage from "../Components/FrontPage";
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
       btnClass="show"/>
       <Destination/>
       <FrontPage/>
-      <Trip/>
+      <Tcard/>
       <Footer/>
     </>
   );

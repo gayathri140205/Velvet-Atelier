@@ -10,7 +10,7 @@ import Cake11 from "../Assets/c11.jpg";
 import Cake12 from "../Assets/c12.jpg"; 
 import Cake13 from "../Assets/c13.jpg"; 
 import Cake14 from "../Assets/c14.jpg"; 
-import "./CardStyles.css"; // Update this to point to the correct CSS file path
+import "./CardStyles.css"; 
 import CardData from "./CardData.js";
 
 const FrontPage = () => {

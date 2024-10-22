@@ -1,6 +1,5 @@
 import React from "react";
-import "./CardStyles.css"; // Update this to match the new folder structure
-
+import "./CardStyles.css"; 
 
 const FrontPageData = ({ img, cakeName }) => {
   const handleAddToCart = () => {
