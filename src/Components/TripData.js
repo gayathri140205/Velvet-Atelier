@@ -1,4 +1,4 @@
-import "./Tcard.css";
+import "./TripStyle.css";
 
 function TripData(props) {
   return (

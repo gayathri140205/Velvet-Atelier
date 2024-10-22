@@ -1,4 +1,4 @@
-import "./Tcard.css"
+import "./TripStyle.css"
 import TripData from "./TripData";
 import T1 from "../Assets/tc12.jpeg";
 import T2 from "../Assets/37.jpeg";
